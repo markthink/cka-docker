@@ -2,6 +2,7 @@
 
 Ansible 二进制部署 Docker
 
+```
 ├── defaults
 │   └── main.yml
 ├── files
@@ -28,9 +29,11 @@ Ansible 二进制部署 Docker
 │   └── test.yaml
 └── vars
     └── main.yml
+```
 
 ## 部署方式
 
+```
 cd tests
 ansible-playbook -i inventory cluster.yaml
- 
+```
