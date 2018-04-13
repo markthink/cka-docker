@@ -1,0 +1,7 @@
+---
+- hosts:
+    - master
+    - node
+  remote_user: root
+  roles:
+    - docker

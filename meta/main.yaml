@@ -1,0 +1,16 @@
+galaxy_info:
+  author: BruceHe
+  description: Deploying Docker-1.12.6
+  company: www.caicloud.io
+
+  license: MIT
+
+  min_ansible_version: 1.2
+  platforms:
+  - name: EL
+    versions:
+      - 7
+  galaxy_tags:
+    - docker
+
+dependencies: []
